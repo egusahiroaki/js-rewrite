@@ -28,7 +28,7 @@ describe('Dogクラスのテスト', () => {
     it('ボールを見つけた', function() {
       const mockBall = new Ball();
       // spyOn(mockBall, 'canBeFound').and.returnValue(true);
-      
+
       mockBall.canBeFound = true;
       dog.find(mockBall);
       expect(dog.hasFound).toBeTruthy();
