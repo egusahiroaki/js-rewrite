@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --config webpack.config.js",
-    "start": "webpack-dev-server --hot --inline",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint ./ --fix"
+    "start": "./node_modules/.bin/webpack-dev-server --hot --inline",
+    "lint": "./node_modules/.bin/eslint ./ --fix",
+    "test": "./node_modules/.bin/karma start"
   },
   "author": "Hiroaki Egusa",
   "license": "MIT",
@@ -17,6 +17,13 @@
     "babel-preset-es2015": "^6.24.1",
     "eslint": "^4.18.1",
     "eslint-config-google": "^0.9.1",
+    "jasmine": "^3.0.0",
+    "jasmine-core": "^2.99.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-webpack": "^2.0.9",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
   }
