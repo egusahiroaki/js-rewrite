@@ -8,6 +8,15 @@
         "sourceType": "module"
     },
     "rules": {
-      "max-len": [2, 120]
+      "max-len": [2, 120],
+      "require-jsdoc": ["error", {
+        "require": {
+            "FunctionDeclaration": false,
+            "MethodDefinition": false,
+            "ClassDeclaration": false,
+            "ArrowFunctionExpression": false,
+            "FunctionExpression": false
+        }
+      }]
     }
   }
