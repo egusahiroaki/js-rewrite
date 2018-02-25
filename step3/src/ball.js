@@ -4,7 +4,7 @@ class Ball {
     this.canBeFound = false;
   }
 
-  stop(name) {
+  stop() {
     this.canBeFound = false;
   }
 

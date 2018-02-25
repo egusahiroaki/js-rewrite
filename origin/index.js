@@ -49,7 +49,7 @@ var Ball;
     this.canBeFound = false; 
   }
 
-  Ball.prototype.stop = function(name) {
+  Ball.prototype.stop = function() {
     this.canBeFound = false;
   }
 
