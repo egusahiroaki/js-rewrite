@@ -25,6 +25,5 @@ module.exports = function(config) {
     autoWatch: true,
     browsers: ['ChromeHeadless'],
     singleRun: false,
-    concurrency: Infinity,
   });
 };
